@@ -1,0 +1,24 @@
+
+###
+# Should call method greetings
+GET http://localhost:8090/api/greetings
+
+###
+# Should call method greetings
+GET http://localhost:8090/api/greetings?version=1.0.0
+
+###
+# Should call method greetingsV2
+GET http://localhost:8090/api/greetings?version=1.0.1
+
+###
+# Should call method greetingsV2
+GET http://localhost:8090/api/greetings?version=1.0.2
+
+###
+# Should call method greetings
+GET http://localhost:8090/api/greetings?version=1.0.3
+
+###
+# Should call method greetingsV3
+GET http://localhost:8090/api/greetings?version=2.0.0
