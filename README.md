@@ -32,4 +32,4 @@ cd spring-boot-4
 ./mvnw clean install
 ./mvnw spring-boot:run -pl api-versioning
 ```
-The application listens on http://localhost:8080.
+The application listens on http://localhost:8090.
